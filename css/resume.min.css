@@ -8,15 +8,15 @@
  /*Custom changes JCQ*/
 
  /*Resize video and caption on experience page*/
- #video {
-  padding-left: 80px;
+@media (min-width: 768px) {
+  #video {
+    padding-left: 80px;
  }
-
  #experience > div > div.resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5 > div.resume-date.text-md-right > div > p {
   padding-left: 70px;
   text-align: center !important;
  }
-
+}
 /*Color changes*/
  #experience > div > div:nth-child(3) > img {
   padding-top: 30px;
