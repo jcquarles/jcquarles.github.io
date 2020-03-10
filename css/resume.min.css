@@ -29,3 +29,9 @@
 #about > div > h1 > span, #about > div > div.subheading.mb-5 > a, .subheading.mb-3, #experience > div > div.resume-item.d-flex.flex-column.flex-md-row.justify-content-between.mb-5 > div.resume-content > div > a, .text-primary {
   color: #D12A3B !important;
 }
+
+/*Profile picture resize*/
+#about > div > div:nth-child(1) > img {
+    max-width: 20%;
+    height: auto;
+}
